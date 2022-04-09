@@ -54,6 +54,7 @@ myApp.controllers = {
               title: newTitle,
               category: page.querySelector('#category-input').value,
               description: page.querySelector('#description-input').value,
+              date: page.querySelector('#deadline-input').value,
               highlight: page.querySelector('#highlight-input').checked,
               urgent: page.querySelector('#urgent-input').checked
             }
@@ -83,6 +84,7 @@ myApp.controllers = {
     page.querySelector('#title-input').value = element.data.title;
     page.querySelector('#category-input').value = element.data.category;
     page.querySelector('#description-input').value = element.data.description;
+    page.querySelector('#deadline-input').value = element.data.date;
     page.querySelector('#highlight-input').checked = element.data.highlight;
     page.querySelector('#urgent-input').checked = element.data.urgent;
 

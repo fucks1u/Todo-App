@@ -32,14 +32,16 @@
 
   <ons-list-title>Other options</ons-list-title>
   <ons-list>
+
     <ons-list-item modifier="nodivider">
-        <label class="center" for="inner-highlight-input">
+        <label class="center" for="inner-deadline-input">
           Date limite ?
         </label>
       <div class="right">
         <ons-input id="deadline-input" type="date" placeholder="Date limite" float></ons-input>
       </div>
     </ons-list-item>
+
     <ons-list-item modifier="nodivider">
       <label class="center" for="inner-highlight-input">
         Mettre en surbrillence ?
@@ -48,6 +50,7 @@
         <ons-switch id="highlight-input" input-id="inner-highlight-input"></ons-switch>
       </div>
     </ons-list-item>
+
     <ons-list-item modifier="nodivider">
       <label class="center" for="inner-urgent-input">
         Est-ce urgent ?
@@ -56,6 +59,7 @@
         <ons-switch id="urgent-input" input-id="inner-urgent-input"></ons-switch>
       </div>
     </ons-list-item>
+
   </ons-list>
 
   <ons-if platform="ios other">
