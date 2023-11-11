@@ -39,4 +39,5 @@ Ce projet PHP à pour objectif d'afficher une liste de tâches à réaliser.
 
 ## Auteur
 
-- Ariirau FUCKS 
+- Ariirau FUCKS
+- Lucien GLAUDEL
