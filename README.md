@@ -14,7 +14,6 @@ Ce projet PHP à pour objectif d'afficher une liste de tâches à réaliser.
 
 ## Prérequis
 
-- PHP 7.x
 - Un serveur web (ex: Apache, Nginx)
 
 ## Installation
@@ -27,13 +26,7 @@ Ce projet PHP à pour objectif d'afficher une liste de tâches à réaliser.
 
 2. Configurez votre serveur web pour servir le dossier du projet.
 
-3. Configurez la connexion à la base de données (si nécessaire). Consultez le fichier `config.php` pour plus de détails.
-
-4. Accédez au projet dans votre navigateur (`http://localhost/ToDo-App/`).
-
-## Configuration
-
-Le fichier `config.php` contient les paramètres de configuration du projet. Assurez-vous de le personnaliser en fonction de votre environnement.
+3. Accédez au projet dans votre navigateur (`http://localhost/ToDo-App/`).
 
 ## Structure du Projet
 
