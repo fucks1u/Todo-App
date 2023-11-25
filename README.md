@@ -2,7 +2,7 @@
 
 ## Description
 
-Ce projet PHP à pour objectif d'afficher une liste de tâches à réaliser.
+Ce projet en JavaScript à pour objectif d'afficher une liste de tâches à réaliser.
 
 ## Fonctionnalités
 
